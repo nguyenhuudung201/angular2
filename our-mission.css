@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Libre+Baskerville:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    color: #868686;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+.bt1 + .bt2 {
+    margin-left:10px ;
+}
+
+/*main*/
+.billboard{
+    background-image: url("images/h4-copyright.webp");
+    text-align: center;
+    min-height: 342px;
+    padding: calc(15%);
+}
+.billboard >h1{
+    color: white;
+    font-size: 50px;
+}
+.billboard > p {
+    font-size: 25px;
+    color: gray;
+}
+.mg{
+    margin: 100px 0px;
+}
+.text p{
+    font-weight: 300;
+    color:gray;
+    font-size: 22px;
+}
+.bt1{
+    padding: 0.9em 1.7em;
+    border: 2px #d7d6d5 solid;
+    background-color: white;
+}
+.bt1:hover{
+    background-color: black;
+    color: white;
+}
+.bt1 > a {
+    text-decoration: none;
+    color: black;
+}
+.bt1:hover > a{
+    color: white;
+}
+.bt2{
+    padding: 0.9em 1.7em;
+    border: 2px #d7d6d5 solid;
+    background-color: black;
+}
+.bt2:hover{
+    background-color:#af7f66;
+    color: white;
+}
+.bt2 > a {
+    text-decoration: none;
+    color: white;
+}
+.bt2 > a:hover{
+    color: white;
+}
+.title{
+    background-color:#EBEBEB;
+    margin-top: 80px;
+}
+.title > h1 {
+    text-align: center;
+    font-size: 50px;
+
+}
+.title > p {
+    color: #868686;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+}
+.title >h6{
+    text-align: center;
+}
+.logo div {
+    margin: 100px 0px;
+}
+.logo >div > img{
+    padding-left: 50px;
+    height: 81px;
+    width: 200px;
+}
+
+
+/*endmain*/
